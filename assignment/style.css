@@ -1,3 +1,58 @@
+body {
+  background-color: #5F9EA0;
+}
+
+.header {
+  display: block;
+  text-align: center;
+  margin-bottom: 25px;
+  background-color: #FAFAD2;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 20px 50px 20px 50px;
+  border: 2px #2F4F4F;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.facts {
+  background-color: #C0C0C0;
+  font-family: Helvetica;
+  display: block;
+  text-align: left;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 10px 50px 10px 50px;
+  color: #FF4500;
+  margin-bottom: 50px;
+  max-width: 400px;
+  border: 2px #2F4F4F;
+  border-radius: 10px;
+}
+
+.footer {
+  float: left;
+  display: block;
+  font-style: italic;
+  background-color: #FF7F50;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 10px 50px 10px 50px;
+  border: 2px #2F4F4F;
+  border-radius: 10px;
+  color: #FFFFF0;
+}
+
+.image1 {
+  float: right;
+  width: 30%;
+  border: 5px solid black;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+
+
 /* Give your page a fun background color */
 
 /* Make the header and footer a different color from the background */

@@ -1,21 +1,34 @@
 # Type your responses on a new line
 
 # 1 - What is the command for listing the files in the current folder (directory)?
+ls displays all the files in the currently accessed directory
 
 # 2 - What is the command for changing directories?
+cd changes to the specified directory
 
 # 3 - What is the command for going "up" a folder (to a parent directory)?
+cd .. moves up one folder to a parent directory.
 
 # 4 - What is a quick way to create a new folder?
+mkdir creates a directory or folder in the currently accessed folder
 
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
+The ls command displays nothing in a directory with no files, the cursor moves to a new line but no additional text besides the current directory is displayed.
+On the other hand, the ls command in a folder with files displays the files present in readable blocks.
 
 # 6 - What is a quick way to create a new file?
+The command touch followed by the file name creates a file in the currently accessed directory.
 
 # 7 - Run 'git --version' in your terminal. What is the output?
+git version 2.15.0
 
 # 8 - Why would you run the command 'git status'?
+git status is useful for seeing the status of the git folder. For instance, git status will return untracked files (files not a part of the version control of the created Git repository yet),
+files that have uncommitted changes, files that have committed changes. The command effectively allows us to monitor the status of every file in that git repository.
 
 # 9 - What does the command 'git add .' do?
+git add . adds the current folder (denoted by the .) to the git repository. It is also what is known as staging a commit, the step that is required to tell git what files we are going to commit to the repository.
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
+The command git commit -m "message" will commit the files that were staged previously with the git add . command. The message is used to communicate what we are currently doing with the commit.
+An example of that is "Adding new-file.txt".
